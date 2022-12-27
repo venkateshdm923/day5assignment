@@ -4,7 +4,7 @@ echo "How many random numbers do you want to generate?:"
 read number
 
 #Print the generated random numbers
-echo "The generated random numbers are:"
+echo "The generated random numbers are here:"
 for n in `seq "$number"`
 do
 randomNumber=$(shuf -i 100-999 -n1)
